@@ -102,7 +102,7 @@ A small browser application with 8 authored Playwright scenarios and 17 document
 
 ## Current engineering direction
 
-The Telegram Business Assistant now has a framework-independent application service, selected handler and authorization tests, replay-safe enquiry creation keyed by Telegram message identity, a transactional notification outbox with bounded retries and lease fencing, versioned SQLite migrations, and Ruff + pytest + Docker checks in CI. The next milestones are verifying persistent storage and backup/restore on the live host, completing full conversation/callback integration tests, adding operational metrics and alerts, and only then evaluating an AI workflow extension against a deterministic baseline.
+The Telegram Business Assistant now has a framework-independent application service, handler tests covering consent, FSM transitions, stale callbacks, cancellation, authorization and submission, replay-safe enquiry creation keyed by Telegram message identity, a transactional notification outbox with bounded retries and lease fencing, versioned SQLite migrations, and Ruff + pytest + Docker checks in CI. The next milestones are verifying persistent storage and backup/restore on the live host, completing full conversation/callback integration tests, adding operational metrics and alerts, and only then evaluating an AI workflow extension against a deterministic baseline.
 
 The current project status and planned work are documented separately:
 - [Architecture and current-state analysis](https://github.com/blvxx/portfolio/blob/main/telegram-business-assistant/docs/engineering/architecture.md)

@@ -8,6 +8,10 @@ I build and investigate software workflows with an emphasis on clear boundaries,
 
 **[Engineering portfolio](https://blvxx.github.io/portfolio/engineering/)** · **[GitHub repositories](https://github.com/blvxx?tab=repositories)** · **[Web development portfolio](https://blvxx.github.io/web-development-portfolio/)**
 
+[![Telegram Business Assistant](https://github.com/blvxx/portfolio/actions/workflows/telegram-business-assistant.yml/badge.svg)](https://github.com/blvxx/portfolio/actions/workflows/telegram-business-assistant.yml)
+[![FinTech QA Platform](https://github.com/blvxx/portfolio/actions/workflows/fintech-qa-platform.yml/badge.svg)](https://github.com/blvxx/portfolio/actions/workflows/fintech-qa-platform.yml)
+[![Python API Automation](https://github.com/blvxx/portfolio/actions/workflows/api-automation.yml/badge.svg)](https://github.com/blvxx/portfolio/actions/workflows/api-automation.yml)
+
 ---
 
 ## Engineering focus

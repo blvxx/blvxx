@@ -32,9 +32,10 @@ I build and investigate software workflows with an emphasis on clear boundaries,
 An independently developed and deployed Python Telegram bot MVP for collecting structured business enquiries.
 
 - aiogram 3, asynchronous handlers, finite-state workflow and input validation.
-- SQLite persistence, administrator access checks and optional notifications.
-- Docker Compose hardening for a single-instance deployment.
-- Architecture notes, an ADR, threat model, operations runbook and an evidence-based engineering roadmap.
+- SQLite transactions, a typed application-service boundary and replay-safe lead creation keyed by Telegram chat/message identity.
+- Transactional notification outbox with lease-token fencing, bounded retries and dead-letter state.
+- Forward-only schema migrations, private-chat administrator access checks, Docker Compose hardening and CI quality gates.
+- Architecture decision records, threat model, operations runbook and evidence-based engineering roadmap.
 
 **Live demo:** [@blvlxxbot](https://t.me/blvlxxbot)
 

@@ -1,8 +1,8 @@
 # Artem Kalinin
 
-### Application Support · Technical Support · QA Automation
+### Application Support · Technical Support · QA Automation · Data / BI Analytics
 
-I investigate technical issues, validate API and user workflows, work with SQL data, and document findings so that problems can be understood and reproduced.
+I investigate technical issues, validate API and user workflows, work with SQL data, build reproducible analytics and document findings so that problems can be understood and verified.
 
 **[Engineering portfolio & case studies](https://blvxx.github.io/portfolio/engineering/)** · **[Web development portfolio](https://blvxx.github.io/portfolio/)** · **[GitHub repositories](https://github.com/blvxx?tab=repositories)**
 
@@ -11,6 +11,7 @@ I investigate technical issues, validate API and user workflows, work with SQL d
 [![API Automation](https://github.com/blvxx/portfolio/actions/workflows/api-automation.yml/badge.svg)](https://github.com/blvxx/portfolio/actions/workflows/api-automation.yml)
 [![Data Analytics](https://github.com/blvxx/portfolio/actions/workflows/data-analytics.yml/badge.svg)](https://github.com/blvxx/portfolio/actions/workflows/data-analytics.yml)
 [![Customer Retention Analytics](https://github.com/blvxx/portfolio/actions/workflows/customer-retention-analytics.yml/badge.svg)](https://github.com/blvxx/portfolio/actions/workflows/customer-retention-analytics.yml)
+[![Subscription Revenue Analytics](https://github.com/blvxx/portfolio/actions/workflows/subscription-revenue-analytics.yml/badge.svg)](https://github.com/blvxx/portfolio/actions/workflows/subscription-revenue-analytics.yml)
 [![Retail Dataset Refresh](https://github.com/blvxx/portfolio/actions/workflows/customer-retention-data-refresh.yml/badge.svg)](https://github.com/blvxx/portfolio/actions/workflows/customer-retention-data-refresh.yml)
 
 ---
@@ -21,7 +22,7 @@ I investigate technical issues, validate API and user workflows, work with SQL d
 |---|---|
 | **Application / Technical Support** | Incident triage, log analysis, HTTP and webhook troubleshooting, SQL investigation, RCA, runbooks |
 | **QA & API Automation** | Python, pytest, requests, REST API contracts, JSON Schema, Postman, Playwright |
-| **Data Analysis** | SQL, PostgreSQL, pandas, KPI calculations, data validation, repeatable reporting |
+| **Data / BI Analytics** | SQL, PostgreSQL, CTEs, window functions, KPI modelling, MRR / ARR, cohort analysis, data validation |
 | **Engineering workflow** | Git, GitHub Actions, Docker Compose, test reports, technical documentation |
 | **Web development** | HTML, CSS, JavaScript, responsive layouts and small-business websites |
 
@@ -66,7 +67,6 @@ A reproducible analytics case study based on 360 synthetic e-commerce orders. It
 
 [Project source](https://github.com/blvxx/portfolio/tree/main/data-analytics) · [Interactive dashboard](https://github.com/blvxx/portfolio/tree/main/data-analytics/dashboard)
 
-
 ### 6. Customer Retention & Sales Analytics
 
 An end-to-end business analytics case study using all 541,909 rows of the public UCI Online Retail dataset. The generated report calculates £10.67M gross sales, £896.8K refunds, £9.77M net sales and a 65.58% repeat-customer rate among 4,338 identified customers. It includes SQL CTEs and window functions, RFM segments, cohort retention and an aggregate-only Streamlit dashboard.
@@ -80,14 +80,27 @@ An end-to-end business analytics case study using all 541,909 rows of the public
 
 [Live case study](https://blvxx.github.io/portfolio/customer-retention-analytics/) · [Repository and generated findings](https://github.com/blvxx/portfolio/tree/main/customer-retention-analytics) · [Dataset provenance](https://github.com/blvxx/portfolio/blob/main/customer-retention-analytics/data/README.md)
 
-### 7. [Todo Test — Playwright UI Automation](https://github.com/blvxx/playwright-qa-lab)
+### 7. [Subscription Revenue & Retention Analytics](https://blvxx.github.io/portfolio/subscription-revenue-analytics/)
+A PostgreSQL-first BI case study for a fictional subscription business.
+
+- Reconstructs month-end subscription state from lifecycle events.
+- Calculates MRR / ARR, new MRR, expansion, contraction, churn, GRR and NRR.
+- Builds customer cohort retention and channel / region reporting.
+- Uses CTEs, ROW_NUMBER(), LAG(), generate_series(), reusable views and SQL data-quality assertions.
+- Runs on PostgreSQL 16 in GitHub Actions and exports BI-ready aggregate CSVs.
+
+**Stack:** PostgreSQL · SQL · Docker Compose · GitHub Actions.
+
+[Source and run instructions](https://github.com/blvxx/portfolio/tree/main/subscription-revenue-analytics) · [Workflow](https://github.com/blvxx/portfolio/actions/workflows/subscription-revenue-analytics.yml)
+
+### 8. [Todo Test — Playwright UI Automation](https://github.com/blvxx/playwright-qa-lab)
 A browser app with 8 authored Playwright scenarios and 17 documented manual test cases.
 
 **Demonstrates:** UI test design, browser automation and QA documentation.
 
 ## Selected technology
 
-Python · pytest · requests · Playwright · Postman · SQL · PostgreSQL · pandas · FastAPI · Docker · GitHub Actions · HTML · CSS · JavaScript
+Python · pytest · requests · Playwright · Postman · SQL · PostgreSQL · CTEs · Window Functions · pandas · FastAPI · Docker · GitHub Actions · HTML · CSS · JavaScript
 
 ## How I approach a problem
 
@@ -103,4 +116,4 @@ Python · pytest · requests · Playwright · Postman · SQL · PostgreSQL · pa
 - **Telegram:** [@blvlxx](https://t.me/blvlxx)
 - **Website projects:** [Web development portfolio](https://blvxx.github.io/portfolio/)
 
-> **Project transparency:** payment systems and incident records are simulated; the original customer analytics case uses the attributed public UCI Online Retail dataset, while the separate E-commerce Sales Analysis uses synthetic data. These projects are not presented as production incidents or commercial client deliveries.
+> **Project transparency:** payment systems, incident records, E-commerce Sales Analysis and subscription analytics fixture are simulated; the original customer analytics case uses the attributed public UCI Online Retail dataset. These projects are not presented as production incidents or commercial client deliveries.

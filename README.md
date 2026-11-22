@@ -101,7 +101,7 @@ A small browser application with 8 authored Playwright scenarios and 17 document
 
 ## Current engineering direction
 
-Evolving the Telegram Business Assistant into a more modular and testable workflow application. The next engineering milestones are handler-level tests, separation of application use cases from Telegram adapters, durable notification handling, verified recovery procedures and measured operational behaviour.
+The Telegram Business Assistant now has a framework-independent application service, selected handler and authorization tests, a transactional notification outbox with bounded retries and lease fencing, versioned SQLite migrations, and Ruff + pytest + Docker checks in CI. The next milestones are verifying persistent storage and backup/restore on the live host, completing full conversation/callback integration tests, adding operational metrics and alerts, and only then evaluating an AI workflow extension against a deterministic baseline.
 
 The current project status and planned work are documented separately:
 - [Architecture and current-state analysis](https://github.com/blvxx/portfolio/blob/main/telegram-business-assistant/docs/engineering/architecture.md)

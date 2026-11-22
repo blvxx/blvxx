@@ -59,20 +59,16 @@ A reusable requests client and pytest suite for a public demo REST API.
 **Demonstrates:** API testing, Python automation and maintainable test structure.
 
 ### 5. [SQL + Python Data Analytics](https://github.com/blvxx/portfolio/tree/main/data-analytics)
-A reproducible analytics case study based on 360 synthetic e-commerce orders.
-
-- PostgreSQL schema and SQL reporting.
-- pandas pipeline for revenue, orders and customer KPIs.
-- Validation, unit tests and CSV/JSON exports.
+A reproducible analytics case study based on 360 synthetic e-commerce orders. It demonstrates PostgreSQL schema design, SQL reporting, pandas validation and testable KPI calculations.
 
 **Demonstrates:** structured data analysis, SQL and Python reporting.
 
-[Interactive dashboard](https://github.com/blvxx/portfolio/tree/main/data-analytics/dashboard)
+[Project source](https://github.com/blvxx/portfolio/tree/main/data-analytics) · [Interactive dashboard](https://github.com/blvxx/portfolio/tree/main/data-analytics/dashboard)
 
 
 ### 6. Customer Retention & Sales Analytics
 
-An end-to-end business analytics case study using the public UCI Online Retail dataset.
+An end-to-end business analytics case study using all 541,909 rows of the public UCI Online Retail dataset. The generated report calculates £10.67M gross sales, £896.8K refunds, £9.77M net sales and a 65.58% repeat-customer rate among 4,338 identified customers. It includes RFM segments, cohort retention and an aggregate-only Streamlit dashboard.
 
 - Transaction cleaning with cancellation and refund handling.
 - Gross / net sales, monthly trends, country contribution and top products.

@@ -1,119 +1,114 @@
 # Artem Kalinin
 
-### Application Support · Technical Support · QA Automation · Data / BI Analytics
+## Python Automation & Application Engineering
 
-I investigate technical issues, validate API and user workflows, work with SQL data, build reproducible analytics and document findings so that problems can be understood and verified.
+Python · API Integrations · Workflow Automation · QA Engineering · Systems Reliability
 
-**[Engineering portfolio & case studies](https://blvxx.github.io/portfolio/engineering/)** · **[Web development portfolio](https://blvxx.github.io/portfolio/)** · **[GitHub repositories](https://github.com/blvxx?tab=repositories)**
+I build and investigate software workflows with an emphasis on clear boundaries, predictable failure handling, automated verification and operational documentation.
 
-[![Support Engineering Lab](https://github.com/blvxx/portfolio/actions/workflows/support-engineering-lab.yml/badge.svg)](https://github.com/blvxx/portfolio/actions/workflows/support-engineering-lab.yml)
-[![FinTech QA](https://github.com/blvxx/portfolio/actions/workflows/fintech-qa-platform.yml/badge.svg)](https://github.com/blvxx/portfolio/actions/workflows/fintech-qa-platform.yml)
-[![API Automation](https://github.com/blvxx/portfolio/actions/workflows/api-automation.yml/badge.svg)](https://github.com/blvxx/portfolio/actions/workflows/api-automation.yml)
-[![Data Analytics](https://github.com/blvxx/portfolio/actions/workflows/data-analytics.yml/badge.svg)](https://github.com/blvxx/portfolio/actions/workflows/data-analytics.yml)
-[![Customer Retention Analytics](https://github.com/blvxx/portfolio/actions/workflows/customer-retention-analytics.yml/badge.svg)](https://github.com/blvxx/portfolio/actions/workflows/customer-retention-analytics.yml)
-[![Subscription Revenue Analytics](https://github.com/blvxx/portfolio/actions/workflows/subscription-revenue-analytics.yml/badge.svg)](https://github.com/blvxx/portfolio/actions/workflows/subscription-revenue-analytics.yml)
-[![Retail Dataset Refresh](https://github.com/blvxx/portfolio/actions/workflows/customer-retention-data-refresh.yml/badge.svg)](https://github.com/blvxx/portfolio/actions/workflows/customer-retention-data-refresh.yml)
+**[Engineering portfolio](https://blvxx.github.io/portfolio/engineering/)** · **[GitHub repositories](https://github.com/blvxx?tab=repositories)** · **[Web development portfolio](https://blvxx.github.io/web-development-portfolio/)**
 
 ---
 
-## What I work with
+## Engineering focus
 
-| Area | Practical focus |
+| Area | Practical evidence |
 |---|---|
-| **Application / Technical Support** | Incident triage, log analysis, HTTP and webhook troubleshooting, SQL investigation, RCA, runbooks |
-| **QA & API Automation** | Python, pytest, requests, REST API contracts, JSON Schema, Postman, Playwright |
-| **Data / BI Analytics** | SQL, PostgreSQL, CTEs, window functions, KPI modelling, MRR / ARR, cohort analysis, data validation |
-| **Engineering workflow** | Git, GitHub Actions, Docker Compose, test reports, technical documentation |
-| **Web development** | HTML, CSS, JavaScript, responsive layouts and small-business websites |
+| **Python application development** | Async Telegram application, validation, persistence, configuration and deployment |
+| **API and workflow automation** | REST clients, request validation, retry boundaries, webhook investigation and integration tests |
+| **Quality engineering** | pytest, Playwright, API contracts, negative scenarios, test strategy and CI |
+| **Systems and incident analysis** | Linux troubleshooting, log triage, incident timelines, SQL reconciliation and recovery runbooks |
+| **Data and SQL** | PostgreSQL, CTEs, window functions, data validation, cohort and revenue analysis |
+| **Engineering delivery** | Git, GitHub Actions, Docker Compose, technical documentation and architecture decision records |
 
-## Selected projects
+## Selected engineering projects
 
-### 1. [Linux Support Engineering Lab](https://github.com/blvxx/portfolio/tree/main/support-engineering-lab)
-A reproducible operations lab with 10 Linux incident playbooks, a Python log triage CLI, severity-ranked evidence and CI-generated JSON reports.
+### 1. [Telegram Business Assistant](https://github.com/blvxx/portfolio/tree/main/telegram-business-assistant)
 
-**Demonstrates:** Linux troubleshooting, systemd, Nginx, DNS, TLS, resource diagnosis and incident documentation.
+An independently developed and deployed Python Telegram bot MVP for collecting structured business enquiries.
 
-### 2. [Incident Investigation Lab — Payment Webhook Failure](https://github.com/blvxx/portfolio/tree/main/incident-lab)
-A simulated payment incident investigated from first symptoms to recovery.
+- aiogram 3, asynchronous handlers, finite-state workflow and input validation.
+- SQLite persistence, administrator access checks and optional notifications.
+- Docker Compose hardening for a single-instance deployment.
+- Architecture notes, an ADR, threat model, operations runbook and an evidence-based engineering roadmap.
 
-- Python log analyzer and unified operations CLI.
-- SQL reconciliation for duplicate payment IDs and payment/order state mismatches.
-- HTTP webhook diagnostics, incident timeline, RCA and recovery runbooks.
+**Live demo:** [@blvlxxbot](https://t.me/blvlxxbot)
 
-**Demonstrates:** incident investigation, troubleshooting, evidence-based analysis and operational documentation.
+**Project status:** deployed portfolio MVP. Host persistence for the live deployment is not verified; the project is not represented as a production client system.
 
-### 3. [FinTech QA Engineering Platform](https://github.com/blvxx/portfolio/tree/main/fintech-qa-platform)
-A multi-service payment sandbox with API, integration and browser-level testing, Prometheus/Grafana observability and a guarded local dependency-outage/recovery drill.
+### 2. [FinTech QA Engineering Platform](https://github.com/blvxx/portfolio/tree/main/fintech-qa-platform)
+
+A multi-service payment sandbox used to demonstrate API, integration and browser-level quality engineering.
 
 - Payment and Ledger services with PostgreSQL persistence.
-- pytest API/integration coverage and Playwright E2E flows.
+- pytest API/integration coverage and Playwright end-to-end flows.
 - Docker Compose, Postman, Allure and GitHub Actions.
+- Observability and a guarded local dependency-outage/recovery exercise.
 
-**Demonstrates:** end-to-end QA thinking, test design, service integration and CI.
+**Stack:** Python · FastAPI · pytest · Playwright · PostgreSQL · Docker.
 
-### 4. [Python API Automation](https://github.com/blvxx/portfolio/tree/main/api-automation)
-A reusable requests client and pytest suite for a public demo REST API.
+### 3. [Python API Automation](https://github.com/blvxx/portfolio/tree/main/api-automation)
 
-- CRUD contract tests and positive/negative scenarios.
-- Safe retry policy for idempotent methods, optional bearer-token configuration and bounded pagination.
-- JSON Schema validation, parametrization, mocked unit tests and Postman.
+A reusable REST API test suite with positive and negative scenarios.
 
-**Demonstrates:** API testing, Python automation and maintainable test structure.
+- CRUD contract checks and JSON Schema validation.
+- Explicit timeouts, bounded pagination and conservative retries for idempotent methods.
+- Mocked unit tests, Postman collection and CI.
 
-### 5. [SQL + Python Data Analytics](https://github.com/blvxx/portfolio/tree/main/data-analytics)
-A reproducible analytics case study based on 360 synthetic e-commerce orders. It demonstrates PostgreSQL schema design, SQL reporting, pandas validation and testable KPI calculations.
+**Stack:** Python · requests · pytest · jsonschema · Postman.
 
-**Demonstrates:** structured data analysis, SQL and Python reporting.
+### 4. [Linux Support Engineering Lab](https://github.com/blvxx/portfolio/tree/main/support-engineering-lab)
 
-[Project source](https://github.com/blvxx/portfolio/tree/main/data-analytics) · [Interactive dashboard](https://github.com/blvxx/portfolio/tree/main/data-analytics/dashboard)
+A reproducible troubleshooting lab with 10 incident playbooks and a Python log-triage CLI.
 
-### 6. Customer Retention & Sales Analytics
+- systemd, Nginx, DNS, TLS, disk/inode, OOM and PostgreSQL connection scenarios.
+- Severity-ranked findings with source-line evidence.
+- Unit tests and CI-generated JSON reports.
 
-An end-to-end business analytics case study using all 541,909 rows of the public UCI Online Retail dataset. The generated report calculates £10.67M gross sales, £896.8K refunds, £9.77M net sales and a 65.58% repeat-customer rate among 4,338 identified customers. It includes SQL CTEs and window functions, RFM segments, cohort retention and an aggregate-only Streamlit dashboard.
+### 5. [Incident Investigation Lab — Payment Webhook Failure](https://github.com/blvxx/portfolio/tree/main/incident-lab)
 
-- Transaction cleaning with cancellation and refund handling.
-- Gross / net sales, monthly trends, country contribution and top products.
-- RFM segmentation and cohort retention analysis.
-- Streamlit + Plotly dashboard, reproducible pipeline and unit tests.
+A simulated payment incident taken from initial symptoms through investigation and recovery.
 
-**Stack:** Python · pandas · Streamlit · Plotly · pytest.
+- Python log analysis and HTTP/webhook diagnostics.
+- SQL reconciliation for duplicate provider IDs and payment/order state mismatches.
+- Incident timeline, RCA and recovery runbooks.
 
-[Live case study](https://blvxx.github.io/portfolio/customer-retention-analytics/) · [Repository and generated findings](https://github.com/blvxx/portfolio/tree/main/customer-retention-analytics) · [Dataset provenance](https://github.com/blvxx/portfolio/blob/main/customer-retention-analytics/data/README.md)
+### 6. [Playwright UI Automation Lab](https://github.com/blvxx/playwright-qa-lab)
 
-### 7. [Subscription Revenue & Retention Analytics](https://blvxx.github.io/portfolio/subscription-revenue-analytics/)
-A PostgreSQL-first BI case study for a fictional subscription business.
+A small browser application with 8 authored Playwright scenarios and 17 documented manual test cases.
 
-- Reconstructs month-end subscription state from lifecycle events.
-- Calculates MRR / ARR, new MRR, expansion, contraction, churn, GRR and NRR.
-- Builds customer cohort retention and channel / region reporting.
-- Uses CTEs, ROW_NUMBER(), LAG(), generate_series(), reusable views and SQL data-quality assertions.
-- Runs on PostgreSQL 16 in GitHub Actions and exports BI-ready aggregate CSVs.
+- Form validation, keyboard interaction, state changes and persistence across reload.
+- Test execution report and bug report templates.
+- GitHub Actions execution.
 
-**Stack:** PostgreSQL · SQL · Docker Compose · GitHub Actions.
+## Data and BI case studies
 
-[Source and run instructions](https://github.com/blvxx/portfolio/tree/main/subscription-revenue-analytics) · [Workflow](https://github.com/blvxx/portfolio/actions/workflows/subscription-revenue-analytics.yml)
+- [Customer Retention & Sales Analytics](https://blvxx.github.io/portfolio/customer-retention-analytics/) — public UCI Online Retail dataset, transaction cleaning, RFM segmentation, cohort retention and aggregate dashboard.
+- [Subscription Revenue & Retention](https://blvxx.github.io/portfolio/subscription-revenue-analytics/) — PostgreSQL subscription lifecycle model, MRR/ARR, GRR/NRR and data-quality assertions.
+- [Support Operations Analytics](https://github.com/blvxx/portfolio/tree/main/support-operations-analytics) — SQL analysis of SLA, backlog, priority mix and workload.
 
-### 8. [Todo Test — Playwright UI Automation](https://github.com/blvxx/playwright-qa-lab)
-A browser app with 8 authored Playwright scenarios and 17 documented manual test cases.
+## How I approach engineering work
 
-**Demonstrates:** UI test design, browser automation and QA documentation.
+1. Clarify the requirement, constraints and expected behaviour.
+2. Identify system boundaries, dependencies and failure modes.
+3. Choose the simplest design that meets the requirements.
+4. Verify behaviour with automated tests and reproducible checks.
+5. Document operational constraints, trade-offs and recovery steps.
 
-## Selected technology
+## Current engineering direction
 
-Python · pytest · requests · Playwright · Postman · SQL · PostgreSQL · CTEs · Window Functions · pandas · FastAPI · Docker · GitHub Actions · HTML · CSS · JavaScript
+Evolving the Telegram Business Assistant into a more modular and testable workflow application. The next engineering milestones are handler-level tests, separation of application use cases from Telegram adapters, durable notification handling, verified recovery procedures and measured operational behaviour.
 
-## How I approach a problem
+The current project status and planned work are documented separately:
+- [Architecture and current-state analysis](https://github.com/blvxx/portfolio/blob/main/telegram-business-assistant/docs/engineering/architecture.md)
+- [Security threat model](https://github.com/blvxx/portfolio/blob/main/telegram-business-assistant/docs/engineering/security/threat-model.md)
+- [Engineering roadmap](https://github.com/blvxx/portfolio/blob/main/telegram-business-assistant/docs/engineering/roadmap.md)
 
-1. Reproduce the issue and define expected behavior.
-2. Collect evidence from logs, requests, responses and data.
-3. Isolate the failure and test likely causes.
-4. Verify the result with focused and regression checks.
-5. Document impact, findings and next steps.
+## Project transparency
+
+The projects above are independent portfolio work. FinTech payment flows and incident records are simulated; the subscription analytics fixture is fictional; the customer-retention case uses the attributed public UCI Online Retail dataset. These projects are not presented as commercial client deliveries or employment history. Each repository documents its own scope and limitations.
 
 ## Contact
 
 - **Email:** [blvx8x@gmail.com](mailto:blvx8x@gmail.com)
 - **Telegram:** [@blvlxx](https://t.me/blvlxx)
-- **Website projects:** [Web development portfolio](https://blvxx.github.io/portfolio/)
-
-> **Project transparency:** payment systems, incident records, E-commerce Sales Analysis and subscription analytics fixture are simulated; the original customer analytics case uses the attributed public UCI Online Retail dataset. These projects are not presented as production incidents or commercial client deliveries.

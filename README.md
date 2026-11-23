@@ -84,4 +84,4 @@ These are independent portfolio projects and labs. Incident and payment scenario
 ## Contact
 
 - **Email:** [blvx8x@gmail.com](mailto:blvx8x@gmail.com)
-- **Telegram:** [@bllvlxx](https://t.me/blvlxx)
+- **Telegram:** [@blvlxx](https://t.me/blvlxx)

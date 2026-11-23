@@ -54,7 +54,7 @@ A small task-tracker application with **11 automated end-to-end scenarios**, **2
 [Open the app](https://blvxx.github.io/playwright-qa-lab/) · [Manual execution report](https://github.com/blvxx/playwright-qa-lab/blob/main/docs/test-execution-report.md) · [Source and test evidence](https://github.com/blvxx/playwright-qa-lab)
 
 ### 6. Workboard — React + TypeScript SPA
-A responsive project and task workspace prototype inspired by internal team tools: task CRUD, four workflow stages, project/priority filters, board/list views, local persistence, JSON export and a keyboard-accessible editor. Domain logic is separated from the UI and covered with Vitest.
+A responsive project and task workspace prototype inspired by internal team tools: task CRUD, four workflow stages, project/priority filters, board/list views, local persistence, JSON export and a keyboard-accessible editor. Domain logic has 12 Vitest tests; six Playwright Chromium scenarios cover task flows, filters, persistence and mobile layout.
 
 [Open the live demo](https://blvxx.github.io/portfolio/taskboard-spa/) · [Source and tests](https://github.com/blvxx/portfolio/tree/main/taskboard-spa-src)
 

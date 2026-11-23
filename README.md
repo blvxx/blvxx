@@ -22,7 +22,8 @@ I investigate application and service issues, validate APIs and user flows, and 
 | **Games Support** | [Games Support Casebook](https://github.com/blvxx/portfolio/tree/main/games-support-casebook) | Fictional player tickets, payment/account triage, communication, prioritisation and escalation |
 | **Technical Support / Support Engineer** | [Support Operations Analytics](https://github.com/blvxx/portfolio/tree/main/support-operations-analytics) · [Linux playbooks](https://github.com/blvxx/portfolio/tree/main/support-engineering-lab/docs/incident-playbooks.md) | Service troubleshooting, SLA/backlog metrics, escalation notes and runbooks |
 | **Junior QA / API Testing** | [FinTech QA Platform](https://github.com/blvxx/portfolio/tree/main/fintech-qa-platform) · [Python API Automation](https://github.com/blvxx/portfolio/tree/main/api-automation) | pytest, REST contracts, negative testing, PostgreSQL, Docker, Playwright and CI |
-| **UI Automation** | [Playwright QA Lab](https://github.com/blvxx/playwright-qa-lab) | Browser interactions, regression scenarios, manual test design and execution evidence |
+| **UI Automation** | [Playwright QA Lab](https://github.com/blvxx/playwright-qa-lab) | 11 browser scenarios, 20 manual cases, test report and accessibility regression evidence |
+| **Frontend Engineering** | [Workboard — React + TypeScript SPA](https://blvxx.github.io/portfolio/taskboard-spa/) · [Source and tests](https://github.com/blvxx/portfolio/tree/main/taskboard-spa-src) | Internal task workspace, React, TypeScript, domain tests, responsive board/list UI |
 | **Python application development** | [Telegram Business Assistant](https://github.com/blvxx/portfolio/tree/main/telegram-business-assistant) · [AI Support Triage Agent](https://github.com/blvxx/portfolio/tree/main/ai-support-triage-agent) | aiogram, FastAPI ecosystem, PostgreSQL, Redis, structured outputs and safe automation |
 
 ## Selected engineering work
@@ -48,14 +49,20 @@ A reusable requests client and pytest suite for REST CRUD contracts, JSON Schema
 [Read the project](https://github.com/blvxx/portfolio/tree/main/api-automation) · [Latest CI evidence](https://github.com/blvxx/portfolio/actions/runs/45102695248)
 
 ### 5. Playwright UI Automation Lab
-A small task-tracker application with eight automated end-to-end scenarios and documented manual QA. Manual functional execution is recorded separately from the automated CI run.
+A small task-tracker application with **11 automated end-to-end scenarios**, **20 manual test cases**, a recorded execution report and two resolved accessibility bug examples.
 
-[Open the app](https://blvxx.github.io/playwright-qa-lab/) · [Source and test evidence](https://github.com/blvxx/playwright-qa-lab)
+[Open the app](https://blvxx.github.io/playwright-qa-lab/) · [Manual execution report](https://github.com/blvxx/playwright-qa-lab/blob/main/docs/test-execution-report.md) · [Source and test evidence](https://github.com/blvxx/playwright-qa-lab)
+
+### 6. Workboard — React + TypeScript SPA
+A responsive project and task workspace prototype inspired by internal team tools: task CRUD, four workflow stages, project/priority filters, board/list views, local persistence, JSON export and a keyboard-accessible editor. Domain logic is separated from the UI and covered with Vitest.
+
+[Open the live demo](https://blvxx.github.io/portfolio/taskboard-spa/) · [Source and tests](https://github.com/blvxx/portfolio/tree/main/taskboard-spa-src)
 
 ## Additional projects
 
 - **[Games Support Casebook](https://github.com/blvxx/portfolio/tree/main/games-support-casebook)** — six fictional player-support cases covering missing purchases, account security, login failures, latency, appeals and safety reports.
 - **[SiteProof prototype](https://blvxx.github.io/portfolio/siteproof-demo/)** — interactive manual-first WordPress form-diagnostic concept with synthetic data and a local-only workspace.
+- **[Workboard — React + TypeScript](https://blvxx.github.io/portfolio/taskboard-spa/)** — internal task workspace SPA with typed domain, filters, views and local persistence.
 - **[Telegram Business Assistant](https://github.com/blvxx/portfolio/tree/main/telegram-business-assistant)** — asynchronous Telegram enquiry workflow, PostgreSQL, Redis FSM, transactional outbox, idempotency, health endpoints and Docker. Current shared runtime has CI evidence but is not publicly deployed.
 - **[AI Support Triage Agent](https://github.com/blvxx/portfolio/tree/main/ai-support-triage-agent)** — retrieval-grounded L2 triage prototype with structured output, evidence validation and human-approval guardrails.
 - **[Support Operations Analytics](https://github.com/blvxx/portfolio/tree/main/support-operations-analytics)** — SQL analysis of synthetic ticket volume, SLA performance, backlog aging and agent workload.

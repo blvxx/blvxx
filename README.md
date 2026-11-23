@@ -8,7 +8,6 @@ I work with technical issues by narrowing down symptoms, checking dependencies, 
 
 **[Support & engineering portfolio](https://github.com/blvxx/portfolio)** · **[Engineering showcase](https://blvxx.github.io/portfolio/engineering/)** · **[Web development portfolio](https://blvxx.github.io/web-development-portfolio/)**
 
-[![Linux Support Lab](https://github.com/blvxx/portfolio/actions/workflows/support-engineering-lab.yml/badge.svg)](https://github.com/blvxx/portfolio/tree/main/support-engineering-lab)
 [![FinTech QA](https://github.com/blvxx/portfolio/actions/workflows/fintech-qa-platform.yml/badge.svg)](https://github.com/blvxx/portfolio/actions/workflows/fintech-qa-platform.yml)
 [![API Automation](https://github.com/blvxx/portfolio/actions/workflows/api-automation.yml/badge.svg)](https://github.com/blvxx/portfolio/actions/workflows/api-automation.yml)
 
@@ -85,4 +84,4 @@ These are independent portfolio projects and labs. Incident and payment scenario
 ## Contact
 
 - **Email:** [blvx8x@gmail.com](mailto:blvx8x@gmail.com)
-- **Telegram:** [@bllvlxx](https://t.me/bllvlxx)
+- **Telegram:** [@bllvlxx](https://t.me/blvlxx)

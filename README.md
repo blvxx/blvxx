@@ -1,6 +1,6 @@
 # Artem Kalinin
 
-## IT Support · Application Support · QA · Python Automation
+## IT Support · Application Support · QA Automation · Python Backend
 
 Technical troubleshooting, application support, Linux, log analysis, REST APIs, SQL and test automation.
 
@@ -12,6 +12,7 @@ I work with technical issues by narrowing down symptoms, checking dependencies, 
 [![API Automation](https://github.com/blvxx/portfolio/actions/workflows/api-automation.yml/badge.svg)](https://github.com/blvxx/portfolio/actions/workflows/api-automation.yml)
 [![Linux Support Lab](https://github.com/blvxx/portfolio/actions/workflows/support-engineering-lab.yml/badge.svg)](https://github.com/blvxx/portfolio/actions/workflows/support-engineering-lab.yml)
 [![Incident Operations](https://github.com/blvxx/portfolio/actions/workflows/incident-ops.yml/badge.svg)](https://github.com/blvxx/portfolio/actions/workflows/incident-ops.yml)
+[![Web Portfolio Validation](https://github.com/blvxx/web-development-portfolio/actions/workflows/portfolio-validation.yml/badge.svg)](https://github.com/blvxx/web-development-portfolio/actions/workflows/portfolio-validation.yml)
 
 ---
 
@@ -53,7 +54,7 @@ Support triage assistant built around retrieved runbook evidence.
 Payment/Ledger sandbox with API, integration and browser-level checks, PostgreSQL, Docker Compose, Allure and CI.
 
 ### [Python API Automation](https://github.com/blvxx/portfolio/tree/main/api-automation)
-REST API test suite covering CRUD contracts, JSON Schema, negative scenarios, mocks, timeouts and safe retry boundaries.
+REST API automation with CRUD contracts, JSON Schema, negative scenarios, unit tests, bounded pagination and safe retry boundaries. CI: 62 passing tests on Python 3.10 and 3.12.
 
 ### [Checkout Regression QA](https://github.com/blvxx/portfolio/tree/main/qa-cases/checkout-regression/)
 24 Playwright browser scenarios for cart, checkout, validation, stock/promotion boundaries and duplicate submissions.
@@ -64,12 +65,16 @@ REST API test suite covering CRUD contracts, JSON Schema, negative scenarios, mo
 ### [Playwright UI Automation Lab](https://github.com/blvxx/playwright-qa-lab)
 8 authored automated scenarios and 17 documented manual test cases for a task-tracker UI.
 
-## Python applications and analytics
+## Python Backend and analytics
 
-- **[Telegram Business Assistant](https://github.com/blvxx/portfolio/tree/main/telegram-business-assistant)** — asynchronous Python application with PostgreSQL, Redis, webhook profile, transactional outbox, health checks, metrics and CI integration tests.
+- **[Telegram Business Assistant](https://github.com/blvxx/portfolio/tree/main/telegram-business-assistant)** — asynchronous Python application with PostgreSQL, Redis, webhook profile, transactional outbox, idempotency, health checks and metrics. CI verifies service integration, PostgreSQL backup/restore, Prometheus rules and Docker build; the current profile is not publicly deployed.
 - **[Customer Retention & Sales Analytics](https://blvxx.github.io/portfolio/customer-retention-analytics/)** — public dataset analysis, RFM segmentation, cohorts and dashboard.
 - **[Subscription Revenue & Retention](https://blvxx.github.io/portfolio/subscription-revenue-analytics/)** — PostgreSQL BI model, MRR/ARR, GRR/NRR and data-quality checks.
 - **[Support Operations Analytics](https://github.com/blvxx/portfolio/tree/main/support-operations-analytics)** — SLA, ticket backlog, priority mix and workload analysis with SQL.
+
+## Frontend / Web Development
+
+- **[Web Development Portfolio](https://blvxx.github.io/web-development-portfolio/)** — five responsive HTML/CSS/JavaScript concepts: business websites, studio/fitness/coffee concepts and a demo storefront. Chromium CI covers mobile overflow, keyboard navigation, filters, cart, interactive brief and form scenarios: **10 browser tests + 5 structural checks**. These are demo concepts, not paid client deliveries.
 
 ## How I approach incidents
 

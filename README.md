@@ -1,94 +1,87 @@
 # Artem Kalinin
 
-## IT Support · Application Support · QA Automation · Python Backend
+**Application Support · Technical Support · QA Automation**
 
-Technical troubleshooting, application support, Linux, log analysis, REST APIs, SQL and test automation.
+I investigate application and service issues, validate APIs and user flows, and turn technical findings into clear recovery steps. My hands-on portfolio covers Linux troubleshooting, HTTP/REST, SQL diagnostics, Python automation, API testing, browser QA and incident documentation.
 
-I work with technical issues by narrowing down symptoms, checking dependencies, validating the result and documenting repeatable solutions. My portfolio includes hands-on labs and independently built projects across support engineering, API testing and Python automation.
+**Open to remote roles:** Application Support L2 · Technical Support / Support Engineer · Junior QA / API Testing · Python automation
 
-**[Support & engineering portfolio](https://github.com/blvxx/portfolio)** · **[Engineering showcase](https://blvxx.github.io/portfolio/engineering/)** · **[Web development portfolio](https://blvxx.github.io/web-development-portfolio/)**
+[Engineering showcase](https://blvxx.github.io/portfolio/engineering/) · [Support & QA projects](https://github.com/blvxx/portfolio) · [Frontend portfolio](https://blvxx.github.io/web-development-portfolio/) · [Email](mailto:blvx8x@gmail.com) · [Telegram](https://t.me/blvlxx)
 
-[![FinTech QA](https://github.com/blvxx/portfolio/actions/workflows/fintech-qa-platform.yml/badge.svg)](https://github.com/blvxx/portfolio/actions/workflows/fintech-qa-platform.yml)
-[![API Automation](https://github.com/blvxx/portfolio/actions/workflows/api-automation.yml/badge.svg)](https://github.com/blvxx/portfolio/actions/workflows/api-automation.yml)
 [![Linux Support Lab](https://github.com/blvxx/portfolio/actions/workflows/support-engineering-lab.yml/badge.svg)](https://github.com/blvxx/portfolio/actions/workflows/support-engineering-lab.yml)
-[![Incident Operations](https://github.com/blvxx/portfolio/actions/workflows/incident-ops.yml/badge.svg)](https://github.com/blvxx/portfolio/actions/workflows/incident-ops.yml)
-[![Web Portfolio Validation](https://github.com/blvxx/web-development-portfolio/actions/workflows/portfolio-validation.yml/badge.svg)](https://github.com/blvxx/web-development-portfolio/actions/workflows/portfolio-validation.yml)
+[![Incident Investigation](https://github.com/blvxx/portfolio/actions/workflows/incident-ops.yml/badge.svg)](https://github.com/blvxx/portfolio/actions/workflows/incident-ops.yml)
+[![API Automation](https://github.com/blvxx/portfolio/actions/workflows/api-automation.yml/badge.svg)](https://github.com/blvxx/portfolio/actions/workflows/api-automation.yml)
+[![FinTech QA](https://github.com/blvxx/portfolio/actions/workflows/fintech-qa-platform.yml/badge.svg)](https://github.com/blvxx/portfolio/actions/workflows/fintech-qa-platform.yml)
+[![Playwright UI QA](https://github.com/blvxx/playwright-qa-lab/actions/workflows/playwright.yml/badge.svg)](https://github.com/blvxx/playwright-qa-lab/actions/workflows/playwright.yml)
 
----
+## Start here
 
-## Core skills
+| Target role | Best evidence | What it demonstrates |
+|---|---|---|
+| **Application Support L2** | [Linux Support Engineering Lab](https://github.com/blvxx/portfolio/tree/main/support-engineering-lab) · [Incident Investigation Lab](https://github.com/blvxx/portfolio/tree/main/incident-lab) | Evidence-led triage, logs, Linux, HTTP/webhooks, SQL, RCA and recovery verification |
+| **Technical Support / Support Engineer** | [Support Operations Analytics](https://github.com/blvxx/portfolio/tree/main/support-operations-analytics) · [Linux playbooks](https://github.com/blvxx/portfolio/tree/main/support-engineering-lab/docs/incident-playbooks.md) | Service troubleshooting, SLA/backlog metrics, escalation notes and runbooks |
+| **Junior QA / API Testing** | [FinTech QA Platform](https://github.com/blvxx/portfolio/tree/main/fintech-qa-platform) · [Python API Automation](https://github.com/blvxx/portfolio/tree/main/api-automation) | pytest, REST contracts, negative testing, PostgreSQL, Docker, Playwright and CI |
+| **UI Automation** | [Playwright QA Lab](https://github.com/blvxx/playwright-qa-lab) | Browser interactions, regression scenarios, manual test design and execution evidence |
+| **Python application development** | [Telegram Business Assistant](https://github.com/blvxx/portfolio/tree/main/telegram-business-assistant) · [AI Support Triage Agent](https://github.com/blvxx/portfolio/tree/main/ai-support-triage-agent) | aiogram, FastAPI ecosystem, PostgreSQL, Redis, structured outputs and safe automation |
 
-| Area | Tools / evidence |
-|---|---|
-| **Technical Support / Service Desk** | Troubleshooting workflow, incident triage, user-facing communication, diagnostics and runbooks |
-| **Systems** | Linux, Windows fundamentals, systemd, journalctl, Nginx, DNS, TLS, networking concepts |
-| **Application Support** | HTTP, REST, webhooks, logs, SQL diagnostics, incident investigation and RCA |
-| **QA / API Testing** | pytest, Requests, Postman, JSON Schema, positive/negative tests, API contracts |
-| **Automation** | Python, Playwright, scripting, test automation |
-| **Data** | SQL, PostgreSQL, pandas, CTEs, window functions |
-| **Tools & delivery** | Git, GitHub Actions, Docker, CI, technical documentation |
+## Selected engineering work
 
-## Start here — support and troubleshooting
+### 1. Linux Support Engineering Lab
+A reproducible troubleshooting lab with **10 incident playbooks** covering systemd, disk/inodes, Nginx 502/504, DNS, TLS, OOM, PostgreSQL pools, permissions and port conflicts. A Python CLI ranks findings and preserves source-line evidence.
 
-### [Linux Support Engineering Lab](https://github.com/blvxx/portfolio/tree/main/support-engineering-lab)
-A hands-on troubleshooting lab with 10 incident playbooks and a Python log-triage CLI.
-- systemd service failures, disk/inode pressure, Nginx 502/504, DNS, TLS, OOM, PostgreSQL connection pools, permissions and port conflicts.
-- Severity-ranked findings with source-line evidence.
-- Repeatable diagnostic steps, unit tests and CI report artifact.
+[Read the lab](https://github.com/blvxx/portfolio/tree/main/support-engineering-lab) · [Incident playbooks](https://github.com/blvxx/portfolio/blob/main/support-engineering-lab/docs/incident-playbooks.md)
 
-### [Incident Investigation Lab — Payment Webhook Failure](https://github.com/blvxx/portfolio/tree/main/incident-lab)
-A simulated incident investigation from initial symptoms through recovery.
-- Log analysis and HTTP/webhook diagnostics.
-- SQL checks for duplicate provider IDs and payment/order state mismatches.
-- Timeline, impact, root cause analysis and recovery/reconciliation runbooks.
+### 2. Incident Investigation — Payment Webhook Failure
+A simulated support incident from first report to recovery: inspect logs, verify webhook behavior, reconcile database records, document impact and write an RCA and recovery runbook.
 
-### [AI Support Triage Agent](https://github.com/blvxx/portfolio/tree/main/ai-support-triage-agent)
-Support triage assistant built around retrieved runbook evidence.
-- Structured severity, category, hypotheses, read-only checks and response draft.
-- Evidence validation and escalation safeguards.
-- Offline tests; live model evaluation requires an API key and is not claimed.
+[Read the case](https://github.com/blvxx/portfolio/tree/main/incident-lab)
 
-## QA and API testing
+### 3. FinTech QA Engineering Platform
+A fictional payment product used to demonstrate API, integration and browser testing, ledger invariants, PostgreSQL, Docker Compose, Allure, Prometheus/Grafana and a controlled dependency-outage drill.
 
-### [FinTech QA Engineering Platform](https://github.com/blvxx/portfolio/tree/main/fintech-qa-platform)
-Payment/Ledger sandbox with API, integration and browser-level checks, PostgreSQL, Docker Compose, Allure and CI.
+[Read the project](https://github.com/blvxx/portfolio/tree/main/fintech-qa-platform) · [Latest CI evidence](https://github.com/blvxx/portfolio/actions/runs/45100258032)
 
-### [Python API Automation](https://github.com/blvxx/portfolio/tree/main/api-automation)
-REST API automation with CRUD contracts, JSON Schema, negative scenarios, unit tests, bounded pagination and safe retry boundaries. CI: 62 passing tests on Python 3.10 and 3.12.
+### 4. Python API Automation
+A reusable requests client and pytest suite for REST CRUD contracts, JSON Schema validation, negative scenarios, pagination boundaries, timeout handling and safe read-only retries. The reviewed CI run passed **62 tests on Python 3.10 and 3.12**.
 
-### [Checkout Regression QA](https://github.com/blvxx/portfolio/tree/main/qa-cases/checkout-regression/)
-24 Playwright browser scenarios for cart, checkout, validation, stock/promotion boundaries and duplicate submissions.
+[Read the project](https://github.com/blvxx/portfolio/tree/main/api-automation) · [Latest CI evidence](https://github.com/blvxx/portfolio/actions/runs/45102695248)
 
-### [Booking API QA](https://github.com/blvxx/portfolio/tree/main/qa-cases/api-contract-negative/)
-31 pytest cases covering API contracts, pagination, validation, conflicts, idempotency and access control.
+### 5. Playwright UI Automation Lab
+A small task-tracker application with eight automated end-to-end scenarios and documented manual QA. Manual functional execution is recorded separately from the automated CI run.
 
-### [Playwright UI Automation Lab](https://github.com/blvxx/playwright-qa-lab)
-8 authored automated scenarios and 17 documented manual test cases for a task-tracker UI.
+[Open the app](https://blvxx.github.io/playwright-qa-lab/) · [Source and test evidence](https://github.com/blvxx/playwright-qa-lab)
 
-## Python Backend and analytics
+## Additional projects
 
-- **[Telegram Business Assistant](https://github.com/blvxx/portfolio/tree/main/telegram-business-assistant)** — asynchronous Python application with PostgreSQL, Redis, webhook profile, transactional outbox, idempotency, health checks and metrics. CI verifies service integration, PostgreSQL backup/restore, Prometheus rules and Docker build; the current profile is not publicly deployed.
-- **[Customer Retention & Sales Analytics](https://blvxx.github.io/portfolio/customer-retention-analytics/)** — public dataset analysis, RFM segmentation, cohorts and dashboard.
-- **[Subscription Revenue & Retention](https://blvxx.github.io/portfolio/subscription-revenue-analytics/)** — PostgreSQL BI model, MRR/ARR, GRR/NRR and data-quality checks.
-- **[Support Operations Analytics](https://github.com/blvxx/portfolio/tree/main/support-operations-analytics)** — SLA, ticket backlog, priority mix and workload analysis with SQL.
+- **[Telegram Business Assistant](https://github.com/blvxx/portfolio/tree/main/telegram-business-assistant)** — asynchronous Telegram enquiry workflow, PostgreSQL, Redis FSM, transactional outbox, idempotency, health endpoints and Docker. Current shared runtime has CI evidence but is not publicly deployed.
+- **[AI Support Triage Agent](https://github.com/blvxx/portfolio/tree/main/ai-support-triage-agent)** — retrieval-grounded L2 triage prototype with structured output, evidence validation and human-approval guardrails.
+- **[Support Operations Analytics](https://github.com/blvxx/portfolio/tree/main/support-operations-analytics)** — SQL analysis of synthetic ticket volume, SLA performance, backlog aging and agent workload.
+- **[Customer Retention Analytics](https://blvxx.github.io/portfolio/customer-retention-analytics/)** — RFM, cohorts and business dashboard using the public UCI Online Retail dataset.
+- **[Frontend / Web Development](https://blvxx.github.io/web-development-portfolio/)** — five responsive HTML/CSS/JavaScript concepts and browser regression checks.
 
-## Frontend / Web Development
+## Core toolkit
 
-- **[Web Development Portfolio](https://blvxx.github.io/web-development-portfolio/)** — five responsive HTML/CSS/JavaScript concepts: business websites, studio/fitness/coffee concepts and a demo storefront. Chromium CI covers mobile overflow, keyboard navigation, filters, cart, interactive brief and form scenarios: **10 browser tests + 5 structural checks**. These are demo concepts, not paid client deliveries.
+**Support:** Linux · Windows fundamentals · systemd · journalctl · Nginx · DNS · TLS · TCP/IP · logs · incident triage · RCA · runbooks
 
-## How I approach incidents
+**QA:** Python · pytest · requests · Playwright · Postman · JSON Schema · API contracts · negative testing · Allure
 
-1. Clarify scope, symptoms and user impact.
-2. Check the simplest causes first and collect evidence.
-3. Isolate whether the issue is client-side, network, application, dependency or access-related.
-4. Apply a safe fix or escalate with useful findings.
-5. Verify recovery and document what happened.
+**Application engineering:** HTTP · REST · webhooks · SQL · PostgreSQL · Redis · Docker · GitHub Actions · Prometheus · Grafana
+
+**Analytics:** SQL · pandas · CTEs · window functions · KPI design · SLA and backlog metrics
+
+## How I work
+
+1. Establish impact, scope and expected behavior.
+2. Reproduce the symptom and collect evidence.
+3. Isolate the application, network, data or dependency layer.
+4. Make or recommend the smallest safe correction.
+5. Verify recovery with a representative request and regression checks.
+6. Document the outcome, remaining risks and next owner.
 
 ## Transparency
 
-These are independent portfolio projects and labs. Incident and payment scenarios are simulated; the projects are not presented as commercial client deliveries or production employment. Each project documents its scope and limitations.
+These are independent portfolio projects and labs. Payment systems, incident records and selected datasets are simulated or synthetic unless a public dataset is explicitly attributed. Projects are not represented as commercial client deliveries or production employment. Live integrations and deployments are identified separately from local and CI validation.
 
-## Contact
+---
 
-- **Email:** [blvx8x@gmail.com](mailto:blvx8x@gmail.com)
-- **Telegram:** [@blvlxx](https://t.me/blvlxx)
+**Artem Kalinin** · [GitHub](https://github.com/blvxx) · [Email](mailto:blvx8x@gmail.com) · [Telegram](https://t.me/blvlxx)

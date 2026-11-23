@@ -19,6 +19,7 @@ I investigate application and service issues, validate APIs and user flows, and 
 | Target role | Best evidence | What it demonstrates |
 |---|---|---|
 | **Application Support L2** | [Linux Support Engineering Lab](https://github.com/blvxx/portfolio/tree/main/support-engineering-lab) · [Incident Investigation Lab](https://github.com/blvxx/portfolio/tree/main/incident-lab) | Evidence-led triage, logs, Linux, HTTP/webhooks, SQL, RCA and recovery verification |
+| **Games Support** | [Games Support Casebook](https://github.com/blvxx/portfolio/tree/main/games-support-casebook) | Fictional player tickets, payment/account triage, communication, prioritisation and escalation |
 | **Technical Support / Support Engineer** | [Support Operations Analytics](https://github.com/blvxx/portfolio/tree/main/support-operations-analytics) · [Linux playbooks](https://github.com/blvxx/portfolio/tree/main/support-engineering-lab/docs/incident-playbooks.md) | Service troubleshooting, SLA/backlog metrics, escalation notes and runbooks |
 | **Junior QA / API Testing** | [FinTech QA Platform](https://github.com/blvxx/portfolio/tree/main/fintech-qa-platform) · [Python API Automation](https://github.com/blvxx/portfolio/tree/main/api-automation) | pytest, REST contracts, negative testing, PostgreSQL, Docker, Playwright and CI |
 | **UI Automation** | [Playwright QA Lab](https://github.com/blvxx/playwright-qa-lab) | Browser interactions, regression scenarios, manual test design and execution evidence |
@@ -53,6 +54,8 @@ A small task-tracker application with eight automated end-to-end scenarios and d
 
 ## Additional projects
 
+- **[Games Support Casebook](https://github.com/blvxx/portfolio/tree/main/games-support-casebook)** — six fictional player-support cases covering missing purchases, account security, login failures, latency, appeals and safety reports.
+- **[SiteProof prototype](https://blvxx.github.io/portfolio/siteproof-demo/)** — interactive manual-first WordPress form-diagnostic concept with synthetic data and a local-only workspace.
 - **[Telegram Business Assistant](https://github.com/blvxx/portfolio/tree/main/telegram-business-assistant)** — asynchronous Telegram enquiry workflow, PostgreSQL, Redis FSM, transactional outbox, idempotency, health endpoints and Docker. Current shared runtime has CI evidence but is not publicly deployed.
 - **[AI Support Triage Agent](https://github.com/blvxx/portfolio/tree/main/ai-support-triage-agent)** — retrieval-grounded L2 triage prototype with structured output, evidence validation and human-approval guardrails.
 - **[Support Operations Analytics](https://github.com/blvxx/portfolio/tree/main/support-operations-analytics)** — SQL analysis of synthetic ticket volume, SLA performance, backlog aging and agent workload.

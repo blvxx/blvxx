@@ -24,6 +24,7 @@ I work with Python-based services, software quality, application troubleshooting
 | **QA Engineering** | [QA Engineering Portfolio](https://github.com/blvxx/qa-engineering-portfolio) | Web/API testing, Python, pytest, Playwright, integration, DWH and Airflow data-quality testing |
 | **Python Backend** | [Python Backend Portfolio](https://github.com/blvxx/python-backend-portfolio) | Python, FastAPI, aiogram, PostgreSQL, Redis, REST APIs, integrations and Docker |
 | **Application Support** | [Application Support Portfolio](https://github.com/blvxx/application-support-portfolio) | Linux, SQL, logs, monitoring, incident triage, root-cause analysis and runbooks |
+| **Data QA / ETL** | [DWH Data Quality Lab](https://github.com/blvxx/qa-engineering-portfolio/tree/main/dwh-data-quality-testing) | Airflow orchestration, PostgreSQL layers, Python/SQL quality gates and reconciliation |
 | **Data Analytics** | [Analyst Portfolio](https://github.com/blvxx/analyst-portfolio) · [Live dashboards](https://blvxx.github.io/analyst-portfolio/) | Python, SQL, pandas, DuckDB, conversion, RFM, cohort analysis and interactive dashboards |
 
 ## Selected work

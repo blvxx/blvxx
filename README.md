@@ -1,44 +1,54 @@
 # Artem Kalinin
 
-**Python / QA Engineer · Application Support · Backend & API Automation**
+<p align="center">
+  <strong>QA Engineering · Python Backend · Application Support · Data Analytics</strong><br>
+  Role-specific portfolios, reproducible projects and practical engineering work
+</p>
 
-I work across software quality, Python-based backend services and application troubleshooting. This GitHub profile separates the evidence by target role so recruiters can go directly to the relevant projects.
+<p align="center">
+  <img src="https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white" alt="Python">
+  <img src="https://img.shields.io/badge/SQL-4479A1?style=flat&logo=postgresql&logoColor=white" alt="SQL">
+  <img src="https://img.shields.io/badge/pytest-0A9EDC?style=flat&logo=pytest&logoColor=white" alt="pytest">
+  <img src="https://img.shields.io/badge/Playwright-2EAD33?style=flat&logo=playwright&logoColor=white" alt="Playwright">
+  <img src="https://img.shields.io/badge/FastAPI-009688?style=flat&logo=fastapi&logoColor=white" alt="FastAPI">
+  <img src="https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white" alt="Docker">
+</p>
+
+I work with Python-based services, software quality, application troubleshooting and data analysis. The repositories below are separated by target role so that a recruiter or collaborator can open the most relevant work without sorting through unrelated projects.
 
 ## Choose a portfolio
 
-| Target resume | Dedicated portfolio | Focus |
+| Direction | Portfolio | What you will find |
 |---|---|---|
-| **QA Engineer / QA Automation Engineer (Python) / API Tester** | [QA Engineering Portfolio](https://github.com/blvxx/qa-engineering-portfolio) | Web, Android/iOS, Android TV/Smart TV, REST API, Python, pytest, Playwright, test strategy and release quality |
-| **Python Developer / Backend Developer** | [Python Backend Portfolio](https://github.com/blvxx/python-backend-portfolio) | Python, FastAPI, aiogram, PostgreSQL, Redis, REST APIs, integrations, asynchronous workflows and Docker |
-| **Application Support L2 / Production Support Engineer** | [Application Support Portfolio](https://github.com/blvxx/application-support-portfolio) | Linux, SQL, PostgreSQL, logs, monitoring, incident triage, RCA, runbooks and operational analytics |\n| **Data Analyst / Marketing Analyst** | [Analyst Portfolio](https://github.com/blvxx/analyst-portfolio) | Python, SQL, pandas, DuckDB, Plotly, conversion, RFM, cohort and open-data analytics |
+| **QA Engineering** | [QA Engineering Portfolio](https://github.com/blvxx/qa-engineering-portfolio) | Web, mobile and API testing; Python, pytest, Playwright, test design and release-risk analysis |
+| **Python Backend** | [Python Backend Portfolio](https://github.com/blvxx/python-backend-portfolio) | Python, FastAPI, aiogram, PostgreSQL, Redis, REST APIs, integrations and Docker |
+| **Application Support** | [Application Support Portfolio](https://github.com/blvxx/application-support-portfolio) | Linux, SQL, logs, monitoring, incident triage, root-cause analysis and runbooks |
+| **Data Analytics** | [Analyst Portfolio](https://github.com/blvxx/analyst-portfolio) · [Live dashboards](https://blvxx.github.io/analyst-portfolio/) | Python, SQL, pandas, DuckDB, conversion, RFM, cohort analysis and interactive dashboards |
 
-[Email](mailto:blvx8x@gmail.com) · [Telegram](https://t.me/blvlxx)
+## Selected work
 
-## QA engineering highlights
+- **Quality engineering:** [API Automation](https://github.com/blvxx/qa-engineering-portfolio/tree/main/api-automation) — 62 automated API tests; [Booking API QA](https://github.com/blvxx/qa-engineering-portfolio/tree/main/qa-cases/api-contract-negative) — 31 contract and business-rule tests; [Checkout Regression](https://github.com/blvxx/qa-engineering-portfolio/tree/main/qa-cases/checkout-regression) — 24 Playwright scenarios.
+- **Browser automation:** [Playwright QA Lab](https://github.com/blvxx/playwright-qa-lab) — 11 E2E scenarios, 20 documented manual cases and accessibility checks.
+- **Backend and integrations:** [Telegram Business Assistant](https://github.com/blvxx/python-backend-portfolio/tree/main/telegram-business-assistant) and [AI Support Triage Agent](https://github.com/blvxx/python-backend-portfolio/tree/main/ai-support-triage-agent).
+- **Application support:** [Linux Support Engineering Lab](https://github.com/blvxx/application-support-portfolio/tree/main/support-engineering-lab) — troubleshooting playbooks and Python log triage; [Incident Investigation Lab](https://github.com/blvxx/application-support-portfolio/tree/main/incident-lab) — incident timeline, SQL checks, root-cause analysis and recovery.
+- **Data analytics:** three open-data case studies covering website conversion, e-commerce transactions and CIS macroeconomic indicators. [Open the dashboards](https://blvxx.github.io/analyst-portfolio/).
 
-- [Python API Automation](https://github.com/blvxx/qa-engineering-portfolio/tree/main/api-automation) — 62 tests covering REST behavior, schemas, negative cases, pagination, timeouts and retry boundaries.
-- [Booking API QA](https://github.com/blvxx/qa-engineering-portfolio/tree/main/qa-cases/api-contract-negative) — 31 contract/business-rule tests covering validation, authorization, idempotency and state transitions.
-- [Checkout Regression](https://github.com/blvxx/qa-engineering-portfolio/tree/main/qa-cases/checkout-regression) — 24 Playwright scenarios for cart, pricing, promotions and checkout behavior.
-- [FinTech QA Platform](https://github.com/blvxx/qa-engineering-portfolio/tree/main/fintech-qa-platform) — service integration, PostgreSQL, ledger invariants, observability and controlled dependency recovery.
-- [Playwright QA Lab](https://github.com/blvxx/playwright-qa-lab) — 11 browser E2E tests and 20 documented manual cases.
+## Additional creative and web projects
 
-## Backend and integration highlights
+- [Web Development Portfolio](https://blvxx.github.io/web-development-portfolio/) — responsive company websites, landing pages and interface concepts.
+- [SMM & Content Portfolio](https://blvxx.github.io/web-development-portfolio/smm/) — content strategy, social-media concepts and digital analytics examples.
 
-- [Telegram Business Assistant](https://github.com/blvxx/python-backend-portfolio/tree/main/telegram-business-assistant) — Python/aiogram, PostgreSQL, Redis, idempotency, transactional outbox and integration tests.
-- [AI Support Triage Agent](https://github.com/blvxx/python-backend-portfolio/tree/main/ai-support-triage-agent) — retrieval-grounded LLM workflow, structured outputs, evidence validation and human approval boundaries.
+## Toolkit
 
-## Application Support highlights
+**Languages and data:** Python · SQL · JavaScript · pandas · DuckDB · PostgreSQL  
+**Quality and APIs:** pytest · Playwright · requests · Postman · REST · JSON Schema  
+**Backend and operations:** FastAPI · aiogram · Redis · Linux · Docker · GitHub Actions  
+**Analytics and reporting:** cohort analysis · RFM · conversion analysis · Plotly · Google Sheets
 
-- [Linux Support Engineering Lab](https://github.com/blvxx/application-support-portfolio/tree/main/support-engineering-lab) — 10 troubleshooting playbooks and Python log triage.
-- [Incident Investigation Lab](https://github.com/blvxx/application-support-portfolio/tree/main/incident-lab) — simulated webhook incident, logs, SQL reconciliation, RCA and recovery.
-- [Fintech Support & QA Lab](https://github.com/blvxx/application-support-portfolio/tree/main/fintech-support-qa-lab) — API/webhook troubleshooting, PostgreSQL, synthetic logs and Postman.
+## Scope and transparency
 
-## Data analytics highlights\n\n- [Analyst Portfolio](https://github.com/blvxx/analyst-portfolio) — three reproducible case studies on UCI Online Shoppers, UCI Online Retail II and the World Bank Indicators API. Includes Python pipelines, SQL, data-quality checks, tests, DuckDB and generated Plotly dashboards. These are independent open-data portfolio projects, not commercial client analytics.\n\n## Engineering approach
+The repositories contain independent portfolio projects, practice environments, open-data analyses and clearly labelled synthetic scenarios. They demonstrate implementation and problem-solving, but are not presented as paid client deliveries or production employment unless explicitly stated. Dataset sources, assumptions, test scope and project limitations are documented in the relevant repositories.
 
-Across these areas I focus on reproducible work, clear documentation, meaningful tests, data integrity, safe failure handling and evidence-based decisions.
+## Contact
 
-**Transparency:** portfolio repositories include independent practice projects, synthetic data and solution concepts. They are not represented as paid client deliveries or production employment unless explicitly supported by evidence. Test counts and CI results describe only the checks actually implemented and executed.
-
----
-
-**Artem Kalinin** · [GitHub](https://github.com/blvxx) · [Email](mailto:blvx8x@gmail.com) · [Telegram](https://t.me/blvlxx)
+[Email](mailto:blvx8x@gmail.com) · [Telegram](https://t.me/blvlxx) · [GitHub](https://github.com/blvxx)

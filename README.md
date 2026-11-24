@@ -20,7 +20,7 @@ I work with Python-based services, software quality, application troubleshooting
 
 | Direction | Portfolio | What you will find |
 |---|---|---|
-| **QA Engineering** | [QA Engineering Portfolio](https://github.com/blvxx/qa-engineering-portfolio) | Web, mobile and API testing; Python, pytest, Playwright, test design and release-risk analysis |
+| **QA Engineering** | [QA Engineering Portfolio](https://github.com/blvxx/qa-engineering-portfolio) | Web/API testing, Python, pytest, Playwright, integration and data-quality test design |
 | **Python Backend** | [Python Backend Portfolio](https://github.com/blvxx/python-backend-portfolio) | Python, FastAPI, aiogram, PostgreSQL, Redis, REST APIs, integrations and Docker |
 | **Application Support** | [Application Support Portfolio](https://github.com/blvxx/application-support-portfolio) | Linux, SQL, logs, monitoring, incident triage, root-cause analysis and runbooks |
 | **Data Analytics** | [Analyst Portfolio](https://github.com/blvxx/analyst-portfolio) · [Live dashboards](https://blvxx.github.io/analyst-portfolio/) | Python, SQL, pandas, DuckDB, conversion, RFM, cohort analysis and interactive dashboards |

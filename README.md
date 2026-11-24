@@ -1,7 +1,7 @@
 # Artem Kalinin
 
 <p align="center">
-  <strong>AI Product Analysis · QA Engineering · Python Backend · Application Support · Data Analytics</strong><br>
+  <strong>QA Engineering · Application Support · Data Analytics · Python Backend & AI Product Analysis</strong><br>
   Role-specific portfolios, reproducible projects and practical engineering work
 </p>
 
@@ -20,18 +20,16 @@ I work with Python-based services, software quality, application troubleshooting
 
 | Direction | Portfolio | What you will find |
 |---|---|---|
-| **AI Product Analysis** | [AI Business Assistant case](https://github.com/blvxx/python-backend-portfolio/tree/main/ai-business-assistant-product) | Business requirements, user journeys, dialogue design, AI guardrails, acceptance criteria and evaluation plan |
-| **QA Engineering** | [QA Engineering Portfolio](https://github.com/blvxx/qa-engineering-portfolio) | Web/API testing, Python, pytest, Playwright, integration, DWH and Airflow data-quality testing |
-| **Python Backend** | [Python Backend Portfolio](https://github.com/blvxx/python-backend-portfolio) | Python, FastAPI, aiogram, PostgreSQL, Redis, REST APIs, integrations and Docker |
+| **QA Engineering & Data Quality** | [QA Engineering Portfolio](https://github.com/blvxx/qa-engineering-portfolio) · [DWH Quality Lab](https://github.com/blvxx/qa-engineering-portfolio/tree/main/dwh-data-quality-testing) | Web/API testing, Python, pytest, Playwright, integration, PostgreSQL, Airflow and data-quality reconciliation |
 | **Application Support** | [Application Support Portfolio](https://github.com/blvxx/application-support-portfolio) | Linux, SQL, logs, monitoring, incident triage, root-cause analysis and runbooks |
-| **Data QA / ETL** | [DWH Data Quality Lab](https://github.com/blvxx/qa-engineering-portfolio/tree/main/dwh-data-quality-testing) | Airflow orchestration, PostgreSQL layers, Python/SQL quality gates and reconciliation |
 | **Data Analytics** | [Analyst Portfolio](https://github.com/blvxx/analyst-portfolio) · [Live dashboards](https://blvxx.github.io/analyst-portfolio/) | Python, SQL, pandas, DuckDB, conversion, RFM, cohort analysis and interactive dashboards |
+| **Python Backend & AI Product Analysis** | [Python Backend Portfolio](https://github.com/blvxx/python-backend-portfolio) · [AI Business Assistant case](https://github.com/blvxx/python-backend-portfolio/tree/main/ai-business-assistant-product) | FastAPI, REST APIs, integrations, Python automation, requirements, user journeys, AI guardrails and acceptance criteria |
 
 ## Selected work
 
 - **Quality engineering:** [API Automation](https://github.com/blvxx/qa-engineering-portfolio/tree/main/api-automation) — 62 automated API tests; [Booking API QA](https://github.com/blvxx/qa-engineering-portfolio/tree/main/qa-cases/api-contract-negative) — 31 contract and business-rule tests; [Checkout Regression](https://github.com/blvxx/qa-engineering-portfolio/tree/main/qa-cases/checkout-regression) — 24 Playwright scenarios.
 - **Browser automation:** [Playwright QA Lab](https://github.com/blvxx/playwright-qa-lab) — 11 E2E scenarios, 20 documented manual cases and accessibility checks.
-- **Backend and integrations:** [Telegram Business Assistant](https://github.com/blvxx/python-backend-portfolio/tree/main/telegram-business-assistant) and [AI Support Triage Agent](https://github.com/blvxx/python-backend-portfolio/tree/main/ai-support-triage-agent).
+- **Backend and AI product analysis:** [Telegram Business Assistant](https://github.com/blvxx/python-backend-portfolio/tree/main/telegram-business-assistant), [AI Support Triage Agent](https://github.com/blvxx/python-backend-portfolio/tree/main/ai-support-triage-agent) and the [SME AI Business Assistant BA case](https://github.com/blvxx/python-backend-portfolio/tree/main/ai-business-assistant-product).
 - **Application support:** [Linux Support Engineering Lab](https://github.com/blvxx/application-support-portfolio/tree/main/support-engineering-lab) — troubleshooting playbooks and Python log triage; [Incident Investigation Lab](https://github.com/blvxx/application-support-portfolio/tree/main/incident-lab) — incident timeline, SQL checks and recovery; [Production Incident Simulator](https://github.com/blvxx/application-support-portfolio/tree/main/production-incident-simulator) — alert/log correlation and evidence-backed RCA draft.
 - **Data analytics:** three open-data case studies covering website conversion, e-commerce transactions and CIS macroeconomic indicators. [Open the dashboards](https://blvxx.github.io/analyst-portfolio/).
 

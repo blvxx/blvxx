@@ -1,7 +1,7 @@
 # Artem Kalinin
 
 <p align="center">
-  <strong>QA Engineering · Python Backend · Application Support · Data Analytics</strong><br>
+  <strong>AI Product Analysis · QA Engineering · Python Backend · Application Support · Data Analytics</strong><br>
   Role-specific portfolios, reproducible projects and practical engineering work
 </p>
 

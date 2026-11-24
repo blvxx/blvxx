@@ -20,6 +20,8 @@ I work with Python-based services, software quality, application troubleshooting
 
 | Direction | Portfolio | What you will find |
 |---|---|---|
+| **AI Product Analysis** | [AI Business Assistant case](https://github.com/blvxx/python-backend-portfolio/tree/main/ai-business-assistant-product) | Business requirements, user journeys, dialogue design, AI guardrails, acceptance criteria and evaluation plan |
+|---|---|---|
 | **QA Engineering** | [QA Engineering Portfolio](https://github.com/blvxx/qa-engineering-portfolio) | Web/API testing, Python, pytest, Playwright, integration and data-quality test design |
 | **Python Backend** | [Python Backend Portfolio](https://github.com/blvxx/python-backend-portfolio) | Python, FastAPI, aiogram, PostgreSQL, Redis, REST APIs, integrations and Docker |
 | **Application Support** | [Application Support Portfolio](https://github.com/blvxx/application-support-portfolio) | Linux, SQL, logs, monitoring, incident triage, root-cause analysis and runbooks |

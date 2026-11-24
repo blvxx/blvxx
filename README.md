@@ -10,7 +10,7 @@ I work across software quality, Python-based backend services and application tr
 |---|---|---|
 | **QA Engineer / QA Automation Engineer (Python) / API Tester** | [QA Engineering Portfolio](https://github.com/blvxx/qa-engineering-portfolio) | Web, Android/iOS, Android TV/Smart TV, REST API, Python, pytest, Playwright, test strategy and release quality |
 | **Python Developer / Backend Developer** | [Python Backend Portfolio](https://github.com/blvxx/python-backend-portfolio) | Python, FastAPI, aiogram, PostgreSQL, Redis, REST APIs, integrations, asynchronous workflows and Docker |
-| **Application Support L2 / Production Support Engineer** | [Application Support Portfolio](https://github.com/blvxx/application-support-portfolio) | Linux, SQL, PostgreSQL, logs, monitoring, incident triage, RCA, runbooks and operational analytics |
+| **Application Support L2 / Production Support Engineer** | [Application Support Portfolio](https://github.com/blvxx/application-support-portfolio) | Linux, SQL, PostgreSQL, logs, monitoring, incident triage, RCA, runbooks and operational analytics |\n| **Data Analyst / Marketing Analyst** | [Analyst Portfolio](https://github.com/blvxx/analyst-portfolio) | Python, SQL, pandas, DuckDB, Plotly, conversion, RFM, cohort and open-data analytics |
 
 [Email](mailto:blvx8x@gmail.com) · [Telegram](https://t.me/blvlxx)
 
@@ -33,7 +33,7 @@ I work across software quality, Python-based backend services and application tr
 - [Incident Investigation Lab](https://github.com/blvxx/application-support-portfolio/tree/main/incident-lab) — simulated webhook incident, logs, SQL reconciliation, RCA and recovery.
 - [Fintech Support & QA Lab](https://github.com/blvxx/application-support-portfolio/tree/main/fintech-support-qa-lab) — API/webhook troubleshooting, PostgreSQL, synthetic logs and Postman.
 
-## Engineering approach
+## Data analytics highlights\n\n- [Analyst Portfolio](https://github.com/blvxx/analyst-portfolio) — three reproducible case studies on UCI Online Shoppers, UCI Online Retail II and the World Bank Indicators API. Includes Python pipelines, SQL, data-quality checks, tests, DuckDB and generated Plotly dashboards. These are independent open-data portfolio projects, not commercial client analytics.\n\n## Engineering approach
 
 Across these areas I focus on reproducible work, clear documentation, meaningful tests, data integrity, safe failure handling and evidence-based decisions.
 

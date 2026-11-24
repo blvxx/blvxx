@@ -1,12 +1,12 @@
 # Artem Kalinin
 
-**QA Engineer · API Testing · Python Automation · Playwright**
+**QA Engineer · Web & Mobile QA · Android TV / Smart TV · API Testing · Python Automation**
 
-I design and automate checks for REST APIs, browser workflows and service integrations. My independent QA portfolio focuses on risk-based test design, API contracts, negative and boundary scenarios, state verification, defect reporting and reproducible CI evidence.
+I work across functional, regression, exploratory and API testing, with automation in Python and Playwright. My QA approach combines risk-based test design, business-flow validation, device compatibility, integration checks and release-focused reporting.
 
-**Target roles:** Junior QA Engineer · API Tester · QA Automation Engineer (Python)
+**Target roles:** Middle QA Engineer · Manual QA Engineer · API QA Engineer · QA Automation Engineer (Python) · Mobile QA Engineer
 
-**[QA portfolio — start here](https://github.com/blvxx/portfolio/blob/main/qa-portfolio.md)** · [Engineering portfolio](https://github.com/blvxx/portfolio) · [Email](mailto:blvx8x@gmail.com) · [Telegram](https://t.me/blvlxx)
+**[QA Portfolio — start here](https://github.com/blvxx/portfolio/blob/main/qa-portfolio.md)** · [QA Engineering Strategy](https://github.com/blvxx/portfolio/blob/main/qa-engineering-strategy.md) · [Business-value Casebook](https://github.com/blvxx/portfolio/blob/main/qa-commercial-casebook.md) · [Email](mailto:blvx8x@gmail.com) · [Telegram](https://t.me/blvlxx)
 
 [![Python API Automation](https://github.com/blvxx/portfolio/actions/workflows/api-automation.yml/badge.svg)](https://github.com/blvxx/portfolio/actions/workflows/api-automation.yml)
 [![Booking API QA](https://github.com/blvxx/portfolio/actions/workflows/qa-booking-api.yml/badge.svg)](https://github.com/blvxx/portfolio/actions/workflows/qa-booking-api.yml)
@@ -14,70 +14,67 @@ I design and automate checks for REST APIs, browser workflows and service integr
 [![FinTech QA Platform](https://github.com/blvxx/portfolio/actions/workflows/fintech-qa-platform.yml/badge.svg)](https://github.com/blvxx/portfolio/actions/workflows/fintech-qa-platform.yml)
 [![Playwright UI QA](https://github.com/blvxx/playwright-qa-lab/actions/workflows/playwright.yml/badge.svg)](https://github.com/blvxx/playwright-qa-lab/actions/workflows/playwright.yml)
 
-## QA evidence at a glance
+## QA engineering at a glance
 
-| Focus | Project evidence | What it demonstrates |
+| Area | Evidence | What it demonstrates |
 |---|---|---|
-| **Python API testing** | [API Automation](https://github.com/blvxx/portfolio/tree/main/api-automation) — 62 tests; CI matrix on Python 3.10 and 3.12 | REST CRUD, JSON Schema, negative cases, pagination, timeout handling and safe retry boundaries |
-| **API test design** | [Booking API QA](https://github.com/blvxx/portfolio/tree/main/qa-cases/api-contract-negative) — 31 tests; 100% statement coverage for two authored modules | Contracts, validation, access control, idempotency, booking invariants and traceability |
-| **Web E2E** | [Checkout Regression](https://github.com/blvxx/portfolio/tree/main/qa-cases/checkout-regression) — 24 browser scenarios | Cart, pricing, promotions, stock, checkout validation, duplicate submission and responsive smoke |
-| **Manual + UI automation** | [Playwright QA Lab](https://github.com/blvxx/playwright-qa-lab) — 11 E2E tests and 20 documented manual cases | Functional regression, accessibility, persistence, corrupted storage and defect reporting |
-| **Integration testing** | [FinTech QA Platform](https://github.com/blvxx/portfolio/tree/main/fintech-qa-platform) | API/service integration, PostgreSQL, Docker Compose, ledger invariants and controlled failure/recovery checks |
+| **API automation** | [Python API Automation](https://github.com/blvxx/portfolio/tree/main/api-automation) — 62 tests | REST methods, JSON Schema, negative/boundary cases, pagination, timeout behavior and safe retry boundaries |
+| **API contracts & business rules** | [Booking API QA](https://github.com/blvxx/portfolio/tree/main/qa-cases/api-contract-negative) — 31 tests | Authorization, validation, idempotency, state transitions, traceability and 100% statement coverage for two named modules |
+| **Web / checkout regression** | [Checkout Regression](https://github.com/blvxx/portfolio/tree/main/qa-cases/checkout-regression) — 24 browser scenarios | Cart, pricing, promotions, stock boundaries, checkout validation and duplicate-submit protection |
+| **Manual + UI automation** | [Playwright QA Lab](https://github.com/blvxx/playwright-qa-lab) — 11 E2E tests + 20 documented manual cases | Regression, accessibility, persistence, malformed storage and reproducible defect examples |
+| **Integration / financial logic** | [FinTech QA Platform](https://github.com/blvxx/portfolio/tree/main/fintech-qa-platform) | Payment/Ledger integration, PostgreSQL, idempotency, ledger invariants, observability and controlled recovery |
 
-## Selected projects
+## Product and device coverage
 
-### 1. API Automation — Python / pytest
-Reusable HTTP client and test suite for CRUD contracts, response schemas, parametrized positive and negative cases, pagination boundaries and transport resilience. Unit tests use mocks; local fault injection verifies safe retry behavior.
+- **Web:** functional and regression testing, responsive behavior, Chrome DevTools (Elements, Console, Network, Application, Device Toolbar).
+- **Android / iOS:** mobile user flows, lifecycle, permissions, network transitions, session and error handling.
+- **Android TV / Smart TV:** build installation and verification, remote-control navigation, D-pad focus, Back behavior, playback and recovery scenarios.
+- **API:** REST, HTTP semantics, Postman, Swagger/OpenAPI, JSON Schema, Charles / Proxyman traffic analysis.
+- **Automation and data:** Python, pytest, requests, JavaScript, Playwright, SQL, PostgreSQL, GitHub Actions, Docker Compose.
 
-[Project README](https://github.com/blvxx/portfolio/tree/main/api-automation) · [Successful CI run — 23 Nov 2026](https://github.com/blvxx/portfolio/actions/runs/45102695248)
+See the [Mobile / Android TV / Smart TV checklist](https://github.com/blvxx/portfolio/blob/main/qa-mobile-tv-checklist.md) for a structured device test matrix and scenario catalogue.
 
-### 2. Booking API — Risk-Based Contract Testing
-A fictional booking API with 31 automated tests covering validation, pagination, authorization, overlapping reservations, cancellation and idempotency. CI enforces 100% statement coverage for the authored `app.py` and `store.py` modules.
+## Middle-level QA practices
 
-[Project README](https://github.com/blvxx/portfolio/tree/main/qa-cases/api-contract-negative) · [Test matrix](https://github.com/blvxx/portfolio/blob/main/qa-cases/api-contract-negative/test-matrix.md) · [Successful CI run — 22 Nov 2026](https://github.com/blvxx/portfolio/actions/runs/44993766677)
+I approach quality as an engineering responsibility, not only a list of test cases:
 
-### 3. Checkout & Cart — Playwright / pytest
-24 browser scenarios for a fictional storefront: cart and stock boundaries, price calculations, promotions, delivery changes, field validation and duplicate-submit protection. CI retains JUnit results, Playwright traces and failure screenshots.
+1. Translate product requirements into acceptance criteria, risks and traceable scenarios.
+2. Prioritise by user impact, financial/data integrity and failure likelihood.
+3. Select the right test level: API, integration, UI, manual exploratory or device testing.
+4. Design positive, negative, boundary, state-transition and recovery scenarios.
+5. Control test data and make checks reproducible.
+6. Investigate defects using requests, responses, logs, traces and device/build context.
+7. Verify fixes and focused regression; communicate residual risk and release recommendation.
 
-[Project README](https://github.com/blvxx/portfolio/tree/main/qa-cases/checkout-regression) · [Test plan](https://github.com/blvxx/portfolio/blob/main/qa-cases/checkout-regression/test-plan.md) · [Successful CI run — 22 Nov 2026](https://github.com/blvxx/portfolio/actions/runs/44993763830)
+**[Read the full QA Engineering Strategy](https://github.com/blvxx/portfolio/blob/main/qa-engineering-strategy.md)**
 
-### 4. Playwright UI Automation Lab
-11 automated browser scenarios, 20 documented manual test cases, an execution report, responsive exploratory check and two accessibility findings fixed with regression coverage.
+## Business-oriented problem solving
 
-[Repository](https://github.com/blvxx/playwright-qa-lab) · [Test cases](https://github.com/blvxx/playwright-qa-lab/blob/main/docs/test-cases.md) · [Execution report and environment limitations](https://github.com/blvxx/playwright-qa-lab/blob/main/docs/test-execution-report.md) · [Successful CI run — 23 Nov 2026](https://github.com/blvxx/playwright-qa-lab/actions/runs/45155361776)
+I develop QA and automation concepts around business risks rather than technology for its own sake:
 
-### 5. FinTech QA Engineering Platform
-A fictional Payment/Ledger sandbox with pytest API and integration checks, PostgreSQL, Docker Compose, Playwright smoke flows, ledger invariants and a guarded dependency-outage/recovery drill.
+- **E-commerce:** protect checkout conversion and order correctness through price, promotion, stock and duplicate-submit regression.
+- **Financial workflows:** protect transaction integrity through idempotency, ledger invariants, reconciliation and dependency-recovery checks.
+- **Wholesale operations:** concept for validating and normalising Excel/CSV orders before they enter business systems.
+- **Support operations:** AI-assisted triage and runbook retrieval with human approval and quality evaluation.
 
-[Project overview](https://github.com/blvxx/portfolio/blob/main/fintech-qa-platform/overview.html) · [Source and setup](https://github.com/blvxx/portfolio/tree/main/fintech-qa-platform) · [Successful CI run — 23 Nov 2026](https://github.com/blvxx/portfolio/actions/runs/45100258032)
+The [QA & Commercial Problem-Solving Casebook](https://github.com/blvxx/portfolio/blob/main/qa-commercial-casebook.md) describes the problem, approach, expected value and measurement plan. It distinguishes implemented portfolio prototypes from commercial concepts; no client revenue or savings are claimed without evidence.
 
-## QA toolkit
+## Selected CI evidence
 
-**Languages and automation:** Python · pytest · requests · JavaScript · Playwright  
-**API and data:** Postman · HTTP / REST · JSON · JSON Schema · SQL · PostgreSQL  
-**Test engineering:** test plans · test cases · traceability · risk-based testing · positive / negative / boundary testing · regression · exploratory checks · defect reports  
-**CI and environments:** GitHub Actions · Docker Compose · Allure · JUnit XML · Playwright traces
+- [API Automation — 62 tests](https://github.com/blvxx/portfolio/actions/runs/45102695248)
+- [Booking API — 31 tests](https://github.com/blvxx/portfolio/actions/runs/44993766677)
+- [Checkout Regression — 24 browser scenarios](https://github.com/blvxx/portfolio/actions/runs/44993763830)
+- [FinTech QA Platform](https://github.com/blvxx/portfolio/actions/runs/45100258032)
+- [Playwright QA Lab — 11 E2E tests](https://github.com/blvxx/playwright-qa-lab/actions/runs/45155361776)
 
-## How I work
+Coverage note: 100% statement coverage applies only to the named Booking API modules, not to branch coverage, complete requirements or production behavior. A green CI run proves only the checks included in that workflow.
 
-1. Clarify expected behavior, constraints and business impact.
-2. Identify high-risk paths, dependencies and failure modes.
-3. Design positive, negative, boundary and state-transition checks.
-4. Prepare isolated test data and reproducible setup.
-5. Execute tests at API, integration and UI levels.
-6. Record evidence, report reproducible defects and verify fixes.
-7. Summarise coverage, limitations and remaining risk.
+## Additional engineering strength
 
-## Additional strength: Application Support
-
-I also have portfolio evidence in Linux troubleshooting, log analysis, SQL diagnostics, incident investigation and recovery documentation — useful for QA roles close to support, integrations and production systems.
-
+For roles close to support, incident response and platform operations:
 - [Linux Support Engineering Lab](https://github.com/blvxx/portfolio/tree/main/support-engineering-lab)
 - [Incident Investigation Lab](https://github.com/blvxx/portfolio/tree/main/incident-lab)
-
-## Transparency
-
-These are independent practice projects and authored test targets, not commercial client deliveries or production employment. Payment, booking, checkout and incident scenarios are simulated. JSONPlaceholder simulates write operations. The Booking API uses an in-memory store and simplified test authentication. Checkout has no real payment or inventory backend. The Playwright manual report documents its isolated browser harness and limitations. Coverage percentages apply only to the named modules and metric; they do not imply complete branch, system or production coverage.
+- [Support Operations Analytics](https://github.com/blvxx/portfolio/tree/main/support-operations-analytics)
 
 ---
 

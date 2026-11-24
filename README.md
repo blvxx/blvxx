@@ -32,13 +32,13 @@ I work with Python-based services, software quality, application troubleshooting
 - **Quality engineering:** [API Automation](https://github.com/blvxx/qa-engineering-portfolio/tree/main/api-automation) — 62 automated API tests; [Booking API QA](https://github.com/blvxx/qa-engineering-portfolio/tree/main/qa-cases/api-contract-negative) — 31 contract and business-rule tests; [Checkout Regression](https://github.com/blvxx/qa-engineering-portfolio/tree/main/qa-cases/checkout-regression) — 24 Playwright scenarios.
 - **Browser automation:** [Playwright QA Lab](https://github.com/blvxx/playwright-qa-lab) — 11 E2E scenarios, 20 documented manual cases and accessibility checks.
 - **Backend and integrations:** [Telegram Business Assistant](https://github.com/blvxx/python-backend-portfolio/tree/main/telegram-business-assistant) and [AI Support Triage Agent](https://github.com/blvxx/python-backend-portfolio/tree/main/ai-support-triage-agent).
-- **Application support:** [Linux Support Engineering Lab](https://github.com/blvxx/application-support-portfolio/tree/main/support-engineering-lab) — troubleshooting playbooks and Python log triage; [Incident Investigation Lab](https://github.com/blvxx/application-support-portfolio/tree/main/incident-lab) — incident timeline, SQL checks, root-cause analysis and recovery.
+- **Application support:** [Linux Support Engineering Lab](https://github.com/blvxx/application-support-portfolio/tree/main/support-engineering-lab) — troubleshooting playbooks and Python log triage; [Incident Investigation Lab](https://github.com/blvxx/application-support-portfolio/tree/main/incident-lab) — incident timeline, SQL checks and recovery; [Production Incident Simulator](https://github.com/blvxx/application-support-portfolio/tree/main/production-incident-simulator) — alert/log correlation and evidence-backed RCA draft.
 - **Data analytics:** three open-data case studies covering website conversion, e-commerce transactions and CIS macroeconomic indicators. [Open the dashboards](https://blvxx.github.io/analyst-portfolio/).
 
 ## Additional creative and web projects
 
 - [Web Development Portfolio](https://blvxx.github.io/web-development-portfolio/) — responsive company websites, landing pages and interface concepts.
-- [SMM & Content Portfolio](https://blvxx.github.io/web-development-portfolio/smm/) — content strategy, social-media concepts and digital analytics examples.
+- [SMM & Content Portfolio](https://blvxx.github.io/web-development-portfolio/smm/) — content strategy, social-media concepts, digital analytics and a [Yandex Business local SEO clinic case](https://blvxx.github.io/web-development-portfolio/smm/yandex-business-clinic-case.html).
 
 ## Toolkit
 

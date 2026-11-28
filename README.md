@@ -37,10 +37,10 @@ QA Engineering, API testing и Python automation — дополнительны�
 | [Linux Support Engineering Lab](https://github.com/blvxx/portfolio/tree/main/support-engineering-lab) | 10 сценариев диагностики, incident playbooks и Python log-triage CLI |
 | [Incident Investigation Lab](https://github.com/blvxx/portfolio/tree/main/incident-lab) | Симулированный webhook-инцидент, логи, SQL reconciliation, RCA и recovery |
 | [HookStorm](https://github.com/blvxx/HookStorm) | Самостоятельный open-source CLI; [публичная Alpha 0.1.0a1](https://github.com/blvxx/HookStorm/releases/tag/v0.1.0a1) |
-| [QA Engineering Evidence](https://github.com/blvxx/qa-engineering-portfolio) | API, browser, integration и data-quality testing |
-| [Playwright QA Lab](https://github.com/blvxx/playwright-qa-lab) | 11 E2E-сценариев и 20 документированных ручных проверок |
-| [Python Backend Projects](https://github.com/blvxx/python-backend-portfolio) | FastAPI, Telegram-интеграции, PostgreSQL, Redis и automation |
-| [Analytics Projects](https://github.com/blvxx/analyst-portfolio) | SQL/Python-анализ открытых данных и интерактивные дашборды |
+| [QA Engineering Evidence](https://github.com/blvxx/qa-engineering-labs) | API, browser, integration и data-quality testing |
+| [Playwright QA Lab](https://github.com/blvxx/E2E-Automation) | 11 E2E-сценариев и 20 документированных ручных проверок |
+| [Python Backend Projects](https://github.com/blvxx/python-backend-projects) | FastAPI, Telegram-интеграции, PostgreSQL, Redis и automation |
+| [Analytics Projects](https://github.com/blvxx/Data-Analytics-Projects-Dashboards) | SQL/Python-анализ открытых данных и интерактивные дашборды |
 
 Все технические материалы и проекты доступны в открытых репозиториях. Основной маршрут для работодателя — одна страница: **[blvxx.github.io/portfolio](https://blvxx.github.io/portfolio/)**.
 
@@ -48,7 +48,7 @@ QA Engineering, API testing и Python automation — дополнительны�
 
 Коммерческие предложения отделены от карьерного портфолио:
 
-- **[Web Development & SMM](https://blvxx.github.io/web-development-portfolio/)** — сайты, редизайн, доработки и digital-услуги.
+- **[Web Development & SMM](https://blvxx.github.io/Web-Development-Services/)** — сайты, редизайн, доработки и digital-услуги.
 - **[HookStorm](https://github.com/blvxx/HookStorm)** — собственный open-source продукт для проверки надёжности webhook-интеграций.
 
 ## Технологии
